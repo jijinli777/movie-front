@@ -5,7 +5,7 @@ const isMsi = false;
 const isApp = false;
 const isWeb = true;
 
-const baseURL = isDev ? "http://127.0.0.1:7001" : "https://movie.api.hellowmonkey.cc";
+const baseURL = isDev ? "http://127.0.0.1:7001" : "https://v.mlcs.top:88/";
 
 export default {
   isDev,
@@ -20,11 +20,11 @@ export default {
   breakpoints: { xs: 0, s: 640, m: 1024, l: 1280, xl: 1536, xxl: 1920 },
   playbackRates: [0.5, 0.8, 1.0, 1.25, 1.5, 1.8, 2.0, 2.25, 2.5, 3.0],
   appPlaybackRates: [0.5, 0.8, 1.0, 1.25, 1.5, 2.0],
-  title: "沃德影视",
+  title: "影视智通",
   downloadUrl: "resource/app",
   imageUrl: "resource/image",
   videoId: "videoPlayer",
-  toolBoxWebUrl: "https://tool.hellowmonkey.cc",
+  toolBoxWebUrl: "https://v.mlcs.top:88/",
   toolBoxSchemeUrl: "tool-box://",
 };
 
